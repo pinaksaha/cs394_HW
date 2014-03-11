@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		864A90AB18CE8FBD00415869 /* Players.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90AA18CE8FBD00415869 /* Players.m */; };
+		864A90AF18CE90FA00415869 /* PSDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90AE18CE90FA00415869 /* PSDealer.m */; };
+		864A90B218CE96BC00415869 /* PSCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90B118CE96BC00415869 /* PSCustomer.m */; };
+		864A90B518CE987100415869 /* PSDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90B418CE987100415869 /* PSDeck.m */; };
+		864A90B818CE99FE00415869 /* PSCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90B718CE99FE00415869 /* PSCard.m */; };
+		864A90BB18CE9B2F00415869 /* PSDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90BA18CE9B2F00415869 /* PSDispenser.m */; };
+		864A90BE18CE9B5D00415869 /* PSTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90BD18CE9B5D00415869 /* PSTable.m */; };
+		864A90C118CE9B7B00415869 /* PSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90C018CE9B7B00415869 /* PSGame.m */; };
 		86D2786518CE5D6A0039D260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D2786418CE5D690039D260 /* Foundation.framework */; };
 		86D2786718CE5D6A0039D260 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D2786618CE5D6A0039D260 /* CoreGraphics.framework */; };
 		86D2786918CE5D6A0039D260 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D2786818CE5D6A0039D260 /* UIKit.framework */; };
@@ -34,6 +42,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		864A90A918CE8FBD00415869 /* Players.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Players.h; sourceTree = "<group>"; };
+		864A90AA18CE8FBD00415869 /* Players.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Players.m; sourceTree = "<group>"; };
+		864A90AD18CE90FA00415869 /* PSDealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDealer.h; sourceTree = "<group>"; };
+		864A90AE18CE90FA00415869 /* PSDealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDealer.m; sourceTree = "<group>"; };
+		864A90B018CE96BC00415869 /* PSCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCustomer.h; sourceTree = "<group>"; };
+		864A90B118CE96BC00415869 /* PSCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCustomer.m; sourceTree = "<group>"; };
+		864A90B318CE987100415869 /* PSDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDeck.h; sourceTree = "<group>"; };
+		864A90B418CE987100415869 /* PSDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDeck.m; sourceTree = "<group>"; };
+		864A90B618CE99FE00415869 /* PSCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCard.h; sourceTree = "<group>"; };
+		864A90B718CE99FE00415869 /* PSCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCard.m; sourceTree = "<group>"; };
+		864A90B918CE9B2F00415869 /* PSDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDispenser.h; sourceTree = "<group>"; };
+		864A90BA18CE9B2F00415869 /* PSDispenser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDispenser.m; sourceTree = "<group>"; };
+		864A90BC18CE9B5D00415869 /* PSTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTable.h; sourceTree = "<group>"; };
+		864A90BD18CE9B5D00415869 /* PSTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTable.m; sourceTree = "<group>"; };
+		864A90BF18CE9B7B00415869 /* PSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSGame.h; sourceTree = "<group>"; };
+		864A90C018CE9B7B00415869 /* PSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSGame.m; sourceTree = "<group>"; };
 		86D2786118CE5D690039D260 /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D2786418CE5D690039D260 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		86D2786618CE5D6A0039D260 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,9 +103,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		864A90AC18CE8FD400415869 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				864A90B018CE96BC00415869 /* PSCustomer.h */,
+				864A90B118CE96BC00415869 /* PSCustomer.m */,
+				864A90A918CE8FBD00415869 /* Players.h */,
+				864A90AA18CE8FBD00415869 /* Players.m */,
+				864A90AD18CE90FA00415869 /* PSDealer.h */,
+				864A90AE18CE90FA00415869 /* PSDealer.m */,
+				864A90B318CE987100415869 /* PSDeck.h */,
+				864A90B418CE987100415869 /* PSDeck.m */,
+				864A90B618CE99FE00415869 /* PSCard.h */,
+				864A90B718CE99FE00415869 /* PSCard.m */,
+				864A90B918CE9B2F00415869 /* PSDispenser.h */,
+				864A90BA18CE9B2F00415869 /* PSDispenser.m */,
+				864A90BC18CE9B5D00415869 /* PSTable.h */,
+				864A90BD18CE9B5D00415869 /* PSTable.m */,
+				864A90BF18CE9B7B00415869 /* PSGame.h */,
+				864A90C018CE9B7B00415869 /* PSGame.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		86D2785818CE5D690039D260 = {
 			isa = PBXGroup;
 			children = (
+				864A90AC18CE8FD400415869 /* Objects */,
 				86D2786A18CE5D6A0039D260 /* BlackJack */,
 				86D2788918CE5D6A0039D260 /* BlackJackTests */,
 				86D2786318CE5D690039D260 /* Frameworks */,
@@ -200,6 +248,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Pinak Saha";
 				TargetAttributes = {
+					86D2786018CE5D690039D260 = {
+						DevelopmentTeam = 6QN349HHUB;
+					};
 					86D2788118CE5D6A0039D260 = {
 						TestTargetID = 86D2786018CE5D690039D260;
 					};
@@ -250,8 +301,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864A90B818CE99FE00415869 /* PSCard.m in Sources */,
+				864A90C118CE9B7B00415869 /* PSGame.m in Sources */,
+				864A90BE18CE9B5D00415869 /* PSTable.m in Sources */,
+				864A90AF18CE90FA00415869 /* PSDealer.m in Sources */,
+				864A90AB18CE8FBD00415869 /* Players.m in Sources */,
 				86D2787118CE5D6A0039D260 /* main.m in Sources */,
+				864A90BB18CE9B2F00415869 /* PSDispenser.m in Sources */,
 				86D2787B18CE5D6A0039D260 /* PSViewController.m in Sources */,
+				864A90B218CE96BC00415869 /* PSCustomer.m in Sources */,
+				864A90B518CE987100415869 /* PSDeck.m in Sources */,
 				86D2787518CE5D6A0039D260 /* PSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlackJack/BlackJack-Prefix.pch";
 				INFOPLIST_FILE = "BlackJack/BlackJack-Info.plist";
@@ -392,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlackJack/BlackJack-Prefix.pch";
 				INFOPLIST_FILE = "BlackJack/BlackJack-Info.plist";
@@ -461,6 +522,7 @@
 				86D2789518CE5D6A0039D260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86D2789618CE5D6A0039D260 /* Build configuration list for PBXNativeTarget "BlackJackTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +531,7 @@
 				86D2789818CE5D6A0039D260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
