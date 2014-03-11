@@ -8,6 +8,9 @@
 
 #import "PSTable.h"
 #import "Players.h"
+#import "PSDealer.h"
+#import "PSCustomer.h"
+
 @implementation PSTable
 
 
@@ -30,12 +33,25 @@
 
 -(void) startGame
 {
-    Players * aCustomer = self.players[0];
-    Players * aDealer = self.players[1];
+    PSCustomer * aCustomer = self.players[0];
+    PSDealer * aDealer = self.players[1];
     self.numGame = self.numGame + 1;
     PSGame * newGame = [PSGame gameWithTotalCash:aCustomer.betValue dealerCash:aDealer.betValue];
     
     self.aGame = newGame;
+    
+    //Deal cards to all Players
+    
+    for(int i =0;i < self.players.count;i++)
+    {
+        PSCard * tempCard1 = aDealer.dispenser.dispense;
+        PSCard * tempCard2 = aDealer.dispenser.dispense;
+        [tempCard2 changePosition];
+        
+        [self.players[i] addObject:tempCard1];
+        [self.players[i] addObject:tempCard2];
+    }
+    
     
 }
 

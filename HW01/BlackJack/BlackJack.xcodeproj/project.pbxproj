@@ -103,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		862421E918CFACA90022269F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = BlackJack;
+			sourceTree = "<group>";
+		};
 		864A90AC18CE8FD400415869 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +142,7 @@
 				86D2788918CE5D6A0039D260 /* BlackJackTests */,
 				86D2786318CE5D690039D260 /* Frameworks */,
 				86D2786218CE5D690039D260 /* Products */,
+				862421E918CFACA90022269F /* View */,
 			);
 			sourceTree = "<group>";
 		};
