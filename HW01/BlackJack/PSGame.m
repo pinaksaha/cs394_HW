@@ -10,4 +10,15 @@
 
 @implementation PSGame
 
++(PSGame *) gameWithTotalCash:(NSInteger)aPlayerCash dealerCash:(NSInteger)aDealersCah
+{
+    PSGame * aGame = [[PSGame alloc] init];
+    
+    aGame.dealerCash = aDealersCah;
+    aGame.playeCash = aPlayerCash;
+    aGame.totalCash = aGame.dealerCash + aGame.totalCash;
+    
+    return aGame;
+}
+
 @end

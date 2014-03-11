@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Pinak Saha. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Players.h"
 
-@interface PSCustomer : NSObject
+@interface PSCustomer : Players
 
 @end

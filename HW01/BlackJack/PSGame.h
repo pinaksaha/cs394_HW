@@ -10,6 +10,11 @@
 
 @interface PSGame : NSObject
 
+@property (nonatomic) NSInteger dealerCash;
+@property (nonatomic) NSInteger playeCash;
+@property (nonatomic) NSInteger totalCash;
 
+
++(PSGame *) gameWithTotalCash:(NSInteger) aPlayerCash dealerCash:(NSInteger)aDealersCah;
 
 @end

@@ -6,8 +6,14 @@
 //  Copyright (c) 2014 Pinak Saha. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 
-@interface PSDealer : NSObject
+#import "Players.h"
+#import "PSDispenser.h"
+@interface PSDealer : Players
+
+@property (nonatomic,strong) PSDispenser * dispenser;
+
+-(void) deal: (Players *) aPlayer;
+-(void) match;
 
 @end

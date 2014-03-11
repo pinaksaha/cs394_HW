@@ -10,4 +10,26 @@
 
 @implementation Players
 
+-(void) stay
+{
+    self.status = NO;
+}
+
+-(void)hit
+{
+    self.status = YES;
+}
+
+-(void)emptyHand
+{
+    [self.hand removeAllObjects];
+}
+
++(Players *) playerWithBankValue:(NSInteger)aBankValue
+{
+    Players * aPlayer = [[Players alloc] init];
+    aPlayer.bankValue = aBankValue;
+    
+    return aPlayer;
+}
 @end
