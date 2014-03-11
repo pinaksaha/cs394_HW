@@ -7,16 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Players : NSObject
+#import "PSCard.h"
+@interface PSPlayer : NSObject
 @property (nonatomic) BOOL status;
 @property (nonatomic) BOOL type;
 @property (nonatomic) NSInteger bankValue;
 @property (nonatomic) NSInteger betValue;
-@property (nonatomic,strong) NSMutableArray * hand;
+
+
 
 -(void) emptyHand;
 -(void) hit;
 -(void) stay;
-+(Players *) playerWithBankValue:(NSInteger) aBankValue;
++(PSPlayer *) playerWithBankValue:(NSInteger) aBankValue;
+-(NSString *) displayHandDescription;
+-(void) addCard:(PSCard *) aCard;
 @end

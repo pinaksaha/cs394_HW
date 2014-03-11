@@ -89,7 +89,10 @@
                 
                 [self.Cardsremaing addObject:tempCard];
             }
+            
         }
+        
+        [self shuffle];
     }
     
     return self;

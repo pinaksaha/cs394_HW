@@ -7,13 +7,13 @@
 //
 
 
-#import "Players.h"
+#import "PSPlayer.h"
 #import "PSDispenser.h"
 
-@interface PSDealer : Players
+@interface PSDealer : PSPlayer
 
 @property (nonatomic,strong) PSDispenser * dispenser;
--(void) deal: (Players *) aPlayer;
--(void) match:(Players *) aPlayer;
+-(void) deal: (PSPlayer *) aPlayer;
+-(void) match:(PSPlayer *) aPlayer;
 
 @end

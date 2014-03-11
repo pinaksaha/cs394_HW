@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "PSGame.h"
-#import "Players.h"
+#import "PSPlayer.h"
 #import "PSDealer.h"
 #import "PSCustomer.h"
 @interface PSTable : NSObject
@@ -18,8 +18,9 @@
 @property (nonatomic) NSInteger minCash;
 @property (nonatomic,strong) NSMutableArray * players;
 
-+(PSTable *) tableWithPlayers:(Players *) aCustomer dealer:(Players *) aDealer;
--(void) psAddPlayers:(Players *) aPlayer;
++(PSTable *) tableWithPlayers:(PSPlayer *) aCustomer dealer:(PSPlayer *) aDealer;
+-(void) psAddPlayers:(PSPlayer *) aPlayer;
 -(void) startGame;
+
 
 @end

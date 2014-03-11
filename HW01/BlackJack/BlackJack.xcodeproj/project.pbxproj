@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		864A90AB18CE8FBD00415869 /* Players.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90AA18CE8FBD00415869 /* Players.m */; };
+		862421EC18CFAFFE0022269F /* PSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 862421EB18CFAFFE0022269F /* PSGameViewController.m */; };
+		862421EF18CFB0150022269F /* PSStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 862421EE18CFB0150022269F /* PSStoreViewController.m */; };
+		864A90AB18CE8FBD00415869 /* PSPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90AA18CE8FBD00415869 /* PSPlayer.m */; };
 		864A90AF18CE90FA00415869 /* PSDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90AE18CE90FA00415869 /* PSDealer.m */; };
 		864A90B218CE96BC00415869 /* PSCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90B118CE96BC00415869 /* PSCustomer.m */; };
 		864A90B518CE987100415869 /* PSDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A90B418CE987100415869 /* PSDeck.m */; };
@@ -42,8 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		864A90A918CE8FBD00415869 /* Players.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Players.h; sourceTree = "<group>"; };
-		864A90AA18CE8FBD00415869 /* Players.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Players.m; sourceTree = "<group>"; };
+		862421EA18CFAFFE0022269F /* PSGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSGameViewController.h; sourceTree = "<group>"; };
+		862421EB18CFAFFE0022269F /* PSGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSGameViewController.m; sourceTree = "<group>"; };
+		862421ED18CFB0150022269F /* PSStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStoreViewController.h; sourceTree = "<group>"; };
+		862421EE18CFB0150022269F /* PSStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStoreViewController.m; sourceTree = "<group>"; };
+		864A90A918CE8FBD00415869 /* PSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPlayer.h; sourceTree = "<group>"; };
+		864A90AA18CE8FBD00415869 /* PSPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPlayer.m; sourceTree = "<group>"; };
 		864A90AD18CE90FA00415869 /* PSDealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDealer.h; sourceTree = "<group>"; };
 		864A90AE18CE90FA00415869 /* PSDealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDealer.m; sourceTree = "<group>"; };
 		864A90B018CE96BC00415869 /* PSCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCustomer.h; sourceTree = "<group>"; };
@@ -106,6 +112,10 @@
 		862421E918CFACA90022269F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				862421EA18CFAFFE0022269F /* PSGameViewController.h */,
+				862421EB18CFAFFE0022269F /* PSGameViewController.m */,
+				862421ED18CFB0150022269F /* PSStoreViewController.h */,
+				862421EE18CFB0150022269F /* PSStoreViewController.m */,
 			);
 			name = View;
 			path = BlackJack;
@@ -116,8 +126,8 @@
 			children = (
 				864A90B018CE96BC00415869 /* PSCustomer.h */,
 				864A90B118CE96BC00415869 /* PSCustomer.m */,
-				864A90A918CE8FBD00415869 /* Players.h */,
-				864A90AA18CE8FBD00415869 /* Players.m */,
+				864A90A918CE8FBD00415869 /* PSPlayer.h */,
+				864A90AA18CE8FBD00415869 /* PSPlayer.m */,
 				864A90AD18CE90FA00415869 /* PSDealer.h */,
 				864A90AE18CE90FA00415869 /* PSDealer.m */,
 				864A90B318CE987100415869 /* PSDeck.h */,
@@ -314,11 +324,13 @@
 				864A90C118CE9B7B00415869 /* PSGame.m in Sources */,
 				864A90BE18CE9B5D00415869 /* PSTable.m in Sources */,
 				864A90AF18CE90FA00415869 /* PSDealer.m in Sources */,
-				864A90AB18CE8FBD00415869 /* Players.m in Sources */,
+				864A90AB18CE8FBD00415869 /* PSPlayer.m in Sources */,
+				862421EC18CFAFFE0022269F /* PSGameViewController.m in Sources */,
 				86D2787118CE5D6A0039D260 /* main.m in Sources */,
 				864A90BB18CE9B2F00415869 /* PSDispenser.m in Sources */,
 				86D2787B18CE5D6A0039D260 /* PSViewController.m in Sources */,
 				864A90B218CE96BC00415869 /* PSCustomer.m in Sources */,
+				862421EF18CFB0150022269F /* PSStoreViewController.m in Sources */,
 				864A90B518CE987100415869 /* PSDeck.m in Sources */,
 				86D2787518CE5D6A0039D260 /* PSAppDelegate.m in Sources */,
 			);

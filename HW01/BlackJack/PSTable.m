@@ -7,7 +7,7 @@
 //
 
 #import "PSTable.h"
-#import "Players.h"
+#import "PSPlayer.h"
 #import "PSDealer.h"
 #import "PSCustomer.h"
 
@@ -15,10 +15,10 @@
 
 
 
-+(PSTable *) tableWithPlayers:(Players *)aCustomer dealer:(Players *)aDealer
++(PSTable *) tableWithPlayers:(PSPlayer *)aCustomer dealer:(PSPlayer *)aDealer
 {
     PSTable * aTable = [[PSTable alloc]init];
-    
+    aTable.players = [[NSMutableArray alloc]init];
     [aTable.players addObject:aCustomer];
     [aTable.players addObject:aDealer];
     aTable.minCash = 1;
@@ -26,10 +26,13 @@
     return aTable;
 }
 
--(void) psAddPlayers:(Players *)aPlayer
+-(void) psAddPlayers:(PSPlayer *)aPlayer
 {
     [self.players addObject:aPlayer];
 }
+
+\
+
 
 -(void) startGame
 {
@@ -47,9 +50,13 @@
         PSCard * tempCard1 = aDealer.dispenser.dispense;
         PSCard * tempCard2 = aDealer.dispenser.dispense;
         [tempCard2 changePosition];
-        
+        /*
         [self.players[i] addObject:tempCard1];
         [self.players[i] addObject:tempCard2];
+         */
+        
+        [(PSPlayer *)self.players[i] addCard:tempCard1];
+        [(PSPlayer *)self.players[i] addCard:tempCard2];
     }
     
     

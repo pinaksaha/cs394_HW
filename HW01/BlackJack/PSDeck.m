@@ -23,7 +23,7 @@
         
         for (int i=1; i <= 13; i++)
         {
-            for(int j = 0; j < self.Suits.count;i++)
+            for(int j = 0; j < self.Suits.count;j++)
             {
                 [self.Cards addObject:[PSCard cardWithCardValue:i suitValue:self.Suits[j]]];
             }

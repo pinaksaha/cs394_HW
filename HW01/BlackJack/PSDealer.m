@@ -7,24 +7,24 @@
 //
 
 #import "PSDealer.h"
-#import "Players.h"
+#import "PSPlayer.h"
 #import "PSDispenser.h"
 #import "PSCard.h"
 @implementation PSDealer
 
 
--(void) match:(Players *) aPlayer
+-(void) match:(PSPlayer *) aPlayer
 {
     //Match customer bid
     NSInteger playerBid = aPlayer.betValue;
     self.betValue = playerBid;
 }
 
--(void)deal:(Players *)aPlayer
+-(void)deal:(PSPlayer *)aPlayer
 {
    //Deal to player
     PSCard * Card = self.dispenser.dispense;
-    [aPlayer.hand addObject:Card];
+    [aPlayer addCard:Card];
 }
 
 -(id) init

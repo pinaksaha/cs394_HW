@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Pinak Saha. All rights reserved.
 //
 
-#import "Players.h"
+#import "PSPlayer.h"
 
-@interface PSCustomer : Players
+@interface PSCustomer : PSPlayer
 
 -(void)raise:(NSInteger) value;
 
