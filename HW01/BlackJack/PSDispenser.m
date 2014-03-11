@@ -12,6 +12,37 @@
 
 @implementation PSDispenser
 
+-(BOOL) isEmpty
+{
+    if(self.Cardsremaing.count < 10)
+    {
+        return YES;
+    }
+    else
+    {
+        return NO;
+    }
+}
+
+
+-(void) replenish
+{
+    for(int i=0; i<self.Cardsdispensed.count;i++)
+    {
+        //replenish deck from dispesed deck
+        PSCard * tempCard = self.Cardsdispensed[i];
+        [self.Cardsremaing addObject:tempCard];
+    }
+    
+    //clear the despesed deck
+    
+    [self.Cardsdispensed removeAllObjects];
+    
+    //shuffle the cards that are remaing 
+    [self shuffle];
+}
+
+
 -(void) shuffle
 {
     NSInteger count = self.Cardsremaing.count;

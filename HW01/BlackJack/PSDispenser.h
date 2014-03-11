@@ -15,8 +15,9 @@
 @property (nonatomic,strong) NSMutableArray  * Cardsdispensed;
 
 
-
+-(void) replenish;
 -(void) shuffle;
+-(BOOL) isEmpty;
 -(PSCard *) dispense;
 
 @end
