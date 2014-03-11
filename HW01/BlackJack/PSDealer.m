@@ -13,14 +13,18 @@
 @implementation PSDealer
 
 
--(void) match
+-(void) match:(Players *) aPlayer
 {
     //Match customer bid
+    NSInteger playerBid = aPlayer.betValue;
+    self.betValue = playerBid;
 }
 
 -(void)deal:(Players *)aPlayer
 {
-   //Deal to all players on table
+   //Deal to player
+    PSCard * Card = self.dispenser.dispense;
+    [aPlayer.hand addObject:Card];
 }
 
 -(id) init

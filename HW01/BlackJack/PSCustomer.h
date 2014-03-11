@@ -10,4 +10,6 @@
 
 @interface PSCustomer : Players
 
+-(void)raise:(NSInteger) value;
+
 @end

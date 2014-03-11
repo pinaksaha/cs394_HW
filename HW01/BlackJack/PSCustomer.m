@@ -10,4 +10,23 @@
 
 @implementation PSCustomer
 
+-(void) raise:(NSInteger)value
+{
+    self.betValue = self.betValue + value;
+}
+
+-(id)init
+{
+    self = [super init];
+    
+    if(self)
+    {
+        self.bankValue = 1500;
+        self.status = NO;
+        self.type = NO;
+    }
+    
+    return self;
+}
+
 @end

@@ -9,11 +9,11 @@
 
 #import "Players.h"
 #import "PSDispenser.h"
+
 @interface PSDealer : Players
 
 @property (nonatomic,strong) PSDispenser * dispenser;
-
 -(void) deal: (Players *) aPlayer;
--(void) match;
+-(void) match:(Players *) aPlayer;
 
 @end
