@@ -10,4 +10,7 @@
 
 @interface PSDeck : NSObject
 
+@property (nonatomic,strong) NSArray * Suits;
+@property (nonatomic,strong) NSMutableArray * Cards;
+
 @end
