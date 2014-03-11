@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "PSDeck.h"
+#import "PSCard.h"
 @interface PSDispenser : NSObject
+
+@property (nonatomic,strong) NSMutableArray  * Cardsremaing;
+@property (nonatomic,strong) NSMutableArray  * Cardsdispensed;
+
+
+
+-(void) shuffle;
+-(PSCard *) dispense;
 
 @end
